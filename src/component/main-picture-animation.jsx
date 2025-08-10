@@ -2,6 +2,8 @@ import { useState } from "react"
 import cow from "../assets/cow.jpg"
 import cow1 from "../assets/cow1.jpg"
 import cow2 from "../assets/cow2.jpg"
+import left from "../assets/left.jpg"
+import right from "../assets/right.jpg"
 
 export default function PictureAnimation(){
         const allpicture=[cow,cow1,cow2];
@@ -27,10 +29,10 @@ export default function PictureAnimation(){
                 />
             ))}
             <button onClick={changLeftPicture}>
-                <img src="./src/assets/left.jpg" alt="" className="absolute size-10 top-1/2 left-0 -translate-y-1/2 transition-opacity duration-300  hover:opacity-100 opacity-0"/>
+                <img src={left} alt="" className="absolute size-10 top-1/2 left-0 -translate-y-1/2 transition-opacity duration-300  hover:opacity-100 opacity-0"/>
             </button>
             <button onClick={changeRightPicture}>
-                <img src="./src/assets/right.jpg" alt="" className="absolute size-10 top-1/2 right-0 -translate-y-1/2 transition-opacity duration-300  hover:opacity-100 opacity-0"/>
+                <img src={right} alt="" className="absolute size-10 top-1/2 right-0 -translate-y-1/2 transition-opacity duration-300  hover:opacity-100 opacity-0"/>
             </button>
         </div>
      )   
