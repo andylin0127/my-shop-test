@@ -14,7 +14,7 @@ export default function Header(){
     useEffect(()=>{
         const langFile = language === "Chinese"? "ch":"en";
         {
-        fetch(`/locales/${langFile}.json`)
+        fetch(`${import.meta.env.BASE_URL}locales/${langFile}.json`)
         .then(res=>res.json())
         .then(data=>setLanguages(data))
         .catch((err) => console.error("載入語言檔錯誤", err));
