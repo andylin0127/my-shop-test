@@ -6,16 +6,14 @@ import Footer from './component/footer'
 
 function App() {
   return (
-  <div className=''>  
-    <div className=' flex flex-col ' >
+    <div className=' min-h-screen bg-white text-slate-800 ' >
       <Header/>
       <Subheader/>
-      <main className='flex-1 flex'>
+      <main className='mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8'>
       <Main/>
       </main>
       <Footer/>
-    </div>
-  </div>  
+    </div> 
   )
 }
 
