@@ -8,7 +8,7 @@ function handleSubmit(e) {
 }
 
     return (
-    <section className=" bg-gradient-to-b from-neutral-900 via-neutral-500 to-neutral-300">
+    <section className="sticky top-10 z-50 bg-gradient-to-b from-neutral-900 via-neutral-500 to-neutral-300">
         <div className="flex mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8 py-5 md:py-7 items-center gap-4">
             <a href="" className="px-3 shrink-0 text-white font-extrabold tracking-tight text-4xl sm:text-5xl md:text-6xl">牛讚</a>
         

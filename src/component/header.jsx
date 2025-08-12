@@ -24,7 +24,7 @@ export default function Header(){
     ,[language])
 
     return (
-        <div className="flex bg-neutral-900 text-neutral-200 border-b border-neutral-800 ">
+        <div className="sticky top-0 z-50 flex bg-neutral-900 text-neutral-200 border-b border-neutral-800 ">
             <div className="mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8 flex items-center justify-between h-10 gap-2">
                 <div className="flex items-center text-[10px] md:text-sm">
                     <a href="https://andylin0127.github.io/test-git/" className="opacity-90 hover:opacity-100">

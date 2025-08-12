@@ -1,0 +1,29 @@
+[
+    {
+    "key":0,
+    "img":"/images/shirt.jpg",
+    "name":"shirt",
+    "price":888
+    },
+
+    {
+    "key":1,
+    "img":"/images/pents.jpg",
+    "name":"pents",
+    "price":666
+    },
+
+    {
+    "key":2,
+    "img":"/images/shorts.jpg",
+    "name":"shorts",
+    "price":777
+    },
+
+    {
+    "key":3,
+    "img":"/images/pen.jpg",
+    "name":"pen",
+    "price":88
+    }
+]

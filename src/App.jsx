@@ -9,7 +9,7 @@ function App() {
     <div className=' min-h-screen bg-white text-slate-800 ' >
       <Header/>
       <Subheader/>
-      <main className='mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8'>
+      <main className='mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8 '>
       <Main/>
       </main>
       <Footer/>
