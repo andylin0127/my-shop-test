@@ -5,19 +5,9 @@ export default function Main(){
     const [productList,setProductList]=useState([]);
 
     useEffect (()=>{
-        fetch(`${import.meta.env.BASE_URL}locales/product.json`)
+        fetch(`locales/product.json`)
         .then((res)=>res.json())
-        .then(raw => {
-      const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-      const data = raw.map(p => ({
-        ...p,
-        // 支援 http(s) 直接網址，也把開頭的 / 移除再接 base
-        img: /^https?:\/\//.test(p.img)
-          ? p.img
-          : `${base}/${p.img.replace(/^\/+/, "")}`,
-      }));
-      setProductList(data);
-    });
+        .then(raw =>setProductList(raw));
     },[]);
 
     return (
